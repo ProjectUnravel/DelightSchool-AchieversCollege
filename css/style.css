@@ -1,0 +1,175 @@
+* {
+    font-family: sans-serif;
+}
+
+.nav-menu {
+    width: 100%;
+    background-color: #205747;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    padding-left: -50px;
+}
+
+.nav-logo {
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-logo>img {
+    margin-left: -50px;
+    width: 100px;
+}
+
+.nav-items {
+    width: 80%;
+}
+
+.nav-items>nav>ul>li>a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    font-size: 3rem;
+}
+
+.nav-link:hover {
+    color: #205747;
+    background-color: #ffffff;
+}
+
+.nav-items>nav>ul>li {
+    display: inline;
+    justify-content: end;
+}
+
+.nav-items>nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-section {
+    height: 60vh;
+    width: 99vw;
+    margin-left: -268px;
+    /* background: linear-gradient(rgba(65, 64, 150, 0, 5), rgba(230, 144, 15, 0.678)), url("../img/OnlineSchoolProject.png"); */
+    background: url(../img/OnlineSchoolProject.png) no-repeat;
+    background-size: cover;
+}
+
+.banner-secton>div {
+    margin-left: 20px;
+}
+
+.banner-section>div>h1 {
+    color: #205747;
+    font-size: 13rem;
+    margin-left: 50px;
+}
+
+.banner-section>div>p {
+    font-style: italic;
+    font-size: 4rem;
+    padding: 0px;
+    color: #ffffff;
+    margin-top: -120px;
+    margin-left: 50px;
+}
+
+.banner-section span {
+    color: #39cfc0;
+}
+
+.team-image {
+    width: 50%;
+}
+
+.services {
+    padding-bottom: 50px;
+    /* color: #ffffff; */
+}
+
+.services h1 {
+    color: #205747;
+}
+
+.services h3 {
+    color: #205747;
+}
+
+.services .row div {
+    /* margin-left: 100px;
+    margin-bottom: 100px; */
+    padding: 10px 50px 50px 50px;
+}
+
+.services .row div img {
+    border: 2px solid #000;
+}
+
+button {
+    width: 300px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #39cfc0;
+    margin-top: -100px;
+    margin-left: 100px;
+}
+
+.services-text>h3 {
+    font-size: 5rem;
+}
+
+.services-text>p {
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.about-us-section {
+    background-color: #205747;
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+.about-us-section .about-us-text h3 {
+    font-size: 5rem;
+    color: #39cfc0;
+    margin-top: -2px;
+    margin-bottom: -10px;
+}
+
+.about-us-section .why-choose-us-section{
+    border-left: 3px solid #fff;
+    border-width: 5px;
+    margin-top: 10px;
+}
+
+.about-us-section .why-choose-us-section h3 {
+    color: #39cfc0;
+    font-size: 4rem;
+}
+
+.contact-us-section {
+    font-size: 3rem;
+    font-weight: lighter;
+    background-color: #205747;
+    color: #ffffff;
+    text-align: center;
+    margin-top: -120px;
+}
+
+.contact-us-section>h3 {
+    font-size: 5rem;
+
+}
+
+.contact-us-section img{
+    width: 100px;
+}
+
+.contact-us-section h4{
+    font-size: 30px;
+    margin-top: -20px;
+}
